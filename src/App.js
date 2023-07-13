@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import { TodoWrapper } from './components/TodoWrapper';
+import {AiOutlineInstagram} from "react-icons/ai";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TodoWrapper  />
+      <a
+        className="Shivam"
+        href="https://www.instagram.com/shivam_raskonda/"
+        target="-blank"
+      >
+        <AiOutlineInstagram />
+        Shivam Raskonda
+      </a>
     </div>
   );
 }
